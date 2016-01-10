@@ -1,9 +1,11 @@
 # RandomWallpaperGeneratorAndroidApp
 A simple android app to get a new random Bing wallpaper using Bing's wallpaper API.
 
-## Working
+## Methodology
 The app uses Bing's API to get a JSOn in response.
+
 API Url: http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=2&mkt=en-US
+
 When the _idx_ parameter is random and _n_ is set to one, we get a random URL in response.
 Wallpaper is set after downloading the image from this URL.
 Json Response: 
@@ -101,5 +103,14 @@ Json Response:
 }
 ```
 
-## Screenshots
-Work in progress
+## How to use
+
+### Step 1: Launch the app.
+![screenshot_2016-01-11-01-59-57_com example sampannakahu helloworld](https://cloud.githubusercontent.com/assets/10060176/12223819/8c615b4c-b807-11e5-9e75-159960386d6e.png)
+
+### Step 2: Tap on the 'Change wallpaper' button.
+The app will hit Bing's API for wallpapers and would download a wallpaper at random from the list of URL's. It will also set the wallpaper automatically.
+![screenshot_2016-01-11-02-00-13_com example sampannakahu helloworld](https://cloud.githubusercontent.com/assets/10060176/12223820/8c6433e4-b807-11e5-9ee1-8a6bf77bc512.png)
+
+### Step 3: See the wallpaper changed in the home screen.
+![screenshot_2016-01-11-02-00-21_com miui home](https://cloud.githubusercontent.com/assets/10060176/12223821/8ca0118e-b807-11e5-8918-1c4f2f06dc47.png)
