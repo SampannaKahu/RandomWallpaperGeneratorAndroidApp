@@ -8,7 +8,8 @@ API Url: http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=2&mkt=en-US
 
 When the _idx_ parameter is random and _n_ is set to one, we get a random URL in response.
 Wallpaper is set after downloading the image from this URL.
-Json Response: 
+
+A sample Json response: 
 ```
 {
     images: [
